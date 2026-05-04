@@ -11,6 +11,7 @@ function getLoanMessage(annualIncome, creditScore) {
   if(
     creditScore >= minCreditScoreForDuplex && 
     annualIncome >= minIncomeForDuplex) {
+      
 
     return "You qualify for a duplex, condo, and car loan."
   
